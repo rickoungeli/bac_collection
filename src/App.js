@@ -1,9 +1,19 @@
+import React from 'react'
 import './App.css';
+import Header from './components/Header'
+import Banner from './components/Banner'
+import SectionCollection from './components/Collection'
+import Footer from './components/Footer'
 
-function App() {
+const App = ()=>{
   return (
     <div className="mainPage">
-      HELLO
+      <Header />
+      <Banner />
+      <SectionCollection />
+
+
+      <Footer />
     </div>
   );
 }

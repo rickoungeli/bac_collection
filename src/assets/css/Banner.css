@@ -1,0 +1,17 @@
+
+.bannerContainer {
+    background-image: url('https://checkmybags.netlify.app/static/media/brand.d0d76eb4.bin');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    line-height: 60vh;
+}
+
+h3 {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 7vmin;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
