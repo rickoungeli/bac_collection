@@ -31,4 +31,28 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 80px;
+}
+
+.sectionProduits .boutonProduit {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    background-color: #c0bbba;
+    margin-bottom: 80px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.7em;
+    border-radius: 10px;
+    transition: all .3s;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.sectionProduits .boutonProduit:hover {
+    background-color:burlywood
 }

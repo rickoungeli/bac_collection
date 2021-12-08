@@ -8,7 +8,7 @@ const produits = (props)=>{
       
       <div className='cardProduit'>
         <div className='cardProduitDescription'>
-          <h5>Ginger</h5>
+          <h5>{props.name}</h5>
           <form>
             <label>colors : </label>
             <input type='radio' id='colorOption'/>

@@ -14,6 +14,7 @@ const sectionProduits = ()=>{
           return <Produits urlImage={data.url} name={data.name} price={data.price} />
         })}
       </div>
+      <div className='boutonProduit'>BROWSE ALL PRODUCTS</div>
     </div>
   )
 }
