@@ -1,9 +1,22 @@
-.imgCollection {
+.collectionImg {
     min-width: 30vw;
+    height: 40vw;
     border-radius: 20px;
     overflow: hidden;
 }
-img {
+.collectionImg img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.collectionCard h4, .collectionCard p{
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #50250c;
+}
+
+.collectionCard h4 {
+    margin-bottom: 20px;
 }

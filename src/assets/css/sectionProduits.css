@@ -1,0 +1,34 @@
+.sectionProduits {
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(90deg,#5a5959,#c0bbba);
+    padding-top: 120px;
+}
+
+.sectionProduits span {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: #c0bbba;
+    position: absolute;
+    text-align: center;
+    border: 10px solid white;
+    right: 20px;
+    top: -50px;
+    
+}
+
+.sectionProduits span p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3em;
+    color: white
+}
+
+.sectionProduits .produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}

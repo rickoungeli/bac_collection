@@ -1,0 +1,32 @@
+
+.bodyContainer {
+    position: relative;
+    padding-top: 33px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px 30px;
+}
+
+.section1 > p{
+    font-size: 1.5em;
+}
+
+.section2 {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    gap: 5vw;
+    padding: 30px 70px;
+    overflow-x: scroll;
+}
+
+.section2::-webkit-scrollbar {
+    display: none;
+  }
+
+
+

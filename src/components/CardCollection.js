@@ -1,12 +1,14 @@
 import React from 'react'
 import '../assets/css/cardCollection.css'
 
-const CardCollection = ()=>{
+const CardCollection = (props)=>{
   return (
-    <div className='collectionContainer'>
-        <div className='imgCollection'>
-            <img src='https://checkmybags.netlify.app/static/media/bandouliere-back-to-school.0750d39c.jpg' alt='' />
+    <div className='collectionCard'>
+        <div className='collectionImg'>
+            <img src={props.urlImage} alt='' />
         </div>
+        <h4>{props.bagName}</h4>
+        <p>Explore</p>
     </div>
   )
 }
