@@ -14,6 +14,7 @@ const produits = (props)=>{
             <input type='radio' id='colorOption'/>
             <input type='radio' id='colorOption'/>
             <input type='radio' id='colorOption'/>
+            <input type='hidden' value={props.id} />
           </form>
           <p>{props.price} $</p>
           <button>SHOP IT</button>

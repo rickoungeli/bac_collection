@@ -11,7 +11,7 @@ const sectionProduits = ()=>{
       <span><p>Summer collection</p></span>
       <div className='produits'>
         {datas.map((data) => {
-          return <Produits urlImage={data.url} name={data.name} price={data.price} />
+          return <Produits urlImage={data.url} name={data.name} price={data.price} id={data.id} />
         })}
       </div>
       <div className='boutonProduit'>BROWSE ALL PRODUCTS</div>
